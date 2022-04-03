@@ -82,7 +82,7 @@ Alternatively you can use the [pm2](https://pm2.keymetrics.io/docs/usage/quick-s
 You can add the `--no-autorestart` to `pm2` command in order to only execute the bot once.
 
 ```bash
-pm2 start main.js https://polygon-mainnet.g.alchemy.com/v2/<replace-with-your-cred> wss://polygon-mainnet.g.alchemy.com/v2/<replace-with-your-cred> <desired-vault>
+pm2 start main.js --no-autorestart -- https://polygon-mainnet.g.alchemy.com/v2/<replace-with-your-cred> wss://polygon-mainnet.g.alchemy.com/v2/<replace-with-your-cred> <desired-vault>
 ```
 
 ### 6. Example of usage
