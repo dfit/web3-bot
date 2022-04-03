@@ -77,7 +77,7 @@ node main https://polygon-mainnet.g.alchemy.com/v2/<replace-with-your-cred> wss:
 
 ### 5. How to run the bot (alternative)
 
-Alternatively you can use the [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) command to run your bot on background and manging it a little bit better.
+Alternatively you can use the [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) command to run your bot on background and managing it a little bit better.
 
 You can add the `--no-autorestart` to `pm2` command in order to only execute the bot once.
 
